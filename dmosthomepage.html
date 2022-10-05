@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D'MOST</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <!--fontawesomelink-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--bootstrapiconlink-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <style>
+      #carouselbackground {
+        background-image: url(images/background.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+      #navbackground {
+        background-image: url(images/background.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+
+      footer {
+        background-image: url(images/background.png);
+        background-size: 100%;
+        text-align: center;
+      }
+      h5 {
+        color: white;
+      }
+    div#boutme {
+      background-image: url(images/background.png);
+    
+    }
+     
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg mb-2" id="navbackground">
+      <div class="container-fluid">
+        <!-- LOGO -->
+
+        <a class="nav-link" href="">
+          <img src="images/dmostlogosvg.svg" style="width: 100px" alt="" />
+        </a>
+        <!--Hamburger Menu-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarmenu"
+        >
+          <span class="navbar-toggler-icon bg-light rounded-2"></span>
+        </button>
+        <!--LIST-->
+        <div class="collapse navbar-collapse" id="navbarmenu">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="myhomepage.html"
+                ><h5>HOME</h5></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="songs.html"><h5>SONGS</h5></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lyrics.html"><h5>LYRICS</h5></a>
+            </li>
+          </ul>
+          <!--FORM -->
+          <form class="d-flex me-2" role="search">
+            <input type="text" class="form-control me-2" placeholder="search" />
+            <button type="submit" class="btn text-bg-primary">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <center>
+      <!-- Carousel -->
+      <div id="carouselbackground" class="container-fluid p-5">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="4"
+            ></button>
+          </div>
+
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/BG1.png"
+                style="width: 800px"
+                class="img-fluid rounded-4"
+                alt="justme"
+                class="d-block"
+                style="width: 100%"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/BG2.png"
+                style="width: 800px"
+                class="img-fluid rounded-4"
+                alt="justme2"
+                class="d-block"
+                style="width: 100%"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/BG3.png"
+                style="width: 800px"
+                class="img-fluid rounded-4"
+                alt="justme3"
+                class="d-block"
+                style="width: 100%"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/BG4.png"
+                style="width: 800px"
+                class="img-fluid rounded-4"
+                alt="justme4"
+                class="d-block"
+                style="width: 100%"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/BG5.png"
+                style="width: 800px"
+                class="img-fluid rounded-4"
+                alt="justme5"
+                class="d-block"
+                style="width: 100%"
+              />
+            </div>
+          </div>
+
+          <!-- Left and right controls/icons -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+  </center>
+
+      <br /><br />
+
+      <!--accordion Biography-->
+
+      <div class="container" id="boutme">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+              <b>  D'MOST Insights </b>
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+               <i> It is not my dream to be popuplar, I just wanna make music. With
+                simple instruments,free DAW, and very minimal time to record, I
+                have published some songs in many online music platforms. Im not
+                boasting, just sharing some facts. Whenever I make songs, I
+                always put my self in someone else's shoes. Or, I would create a
+                situation in life by starting with the question "What if?". Most
+                of the time, the rythm or beat comes first, then the lyrics.</i>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+              <b> ABOUT THE SONGS</b>
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <b>We The Boys of The Hood</b><br>
+                <i>
+                  This song is inspired by true events in my life during my
+                  youth. The freedom and playfulness of being a teenager is just
+                  a phenominal experience. Experience all without commitment.
+                  Then commit when you grow.
+                </i><br><br>
+
+                <b>10 o 10</b><br>
+                <i>
+                  This song is about a perfect girl. And if you would rate her,
+                  she is 10/10. That's just the song all about. hehe :)
+                </i><br><br>
+
+                <b>Walking Away</b><br>
+                <i>
+                  This song is one of my favorite songs. The beat just simply
+                  captures my heart away. If you woul listen to the lyrics, it
+                  sounds like a fucked up love song. Buy it is really about a
+                  the system built around us and we dont want to be apart of it.
+                </i><br><br>
+
+                <b>Candy Girl</b><br>
+                <i>
+                  Yeah, This is a bit personal, That CAndy girl is my girl.
+                  Hehe. She is the real deal.
+                </i><br><br>
+                <b>Wag Kang Lalayo</b><br>
+                <i>
+                  This is my first Tagalog song. I kinda dig the emo feel in
+                  this song. its a love song obviously, but not boring. Typical
+                  stay with me and dont go away thing. hehe.
+                </i><br><br>
+
+                <b>One Time</b><br>
+                <i>
+                Oooh Yeah. This is good shit. Puff that thing and listen to this
+                song. You gonna feel me. Hehe. Blow my mind!</i><br><br>
+
+                <b>The Traveler</b><br>
+                <i>
+                  Straight to the point. It's about someone who is adventurous
+                  and into the wild. Someone who wants to explore this great
+                  mother Earth.
+                </i><br><br>
+
+                <b>Simple Man</b><br>
+                <i>
+                  Ispired by my Dad and all the Old school dads out there, whom
+                  we are proud to call Dad. A daddy figure, a hero, a model, and
+                  a friend.
+                </i>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Q and A
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <b> What inspires your music?</b><br>
+                <i> My mood, feelings, imaginations, and daily events in
+                  our lives.</i><br><br>
+
+                <b> What is your genre of music?</b><br>
+                 <i> I really don't have a specific genre for my music,
+                  as long as the beat, rythm, and tune is cool, then im good
+                  with it.</i><br><br>
+              
+               <b> Who are your influences?</b><br>
+                <i> Red Hot Chilli Peppers, I used to memorize their
+                  songs back when I was in high school.</i><br><br>
+
+                <b> What do you want your listeners to learn from you? </b><br>
+                  <i> I really don't expect anyone to learn from me, but I
+                  could say, life is short when you worry, and you forget about
+                  time when you have fun.</i><br><br>
+
+                <b> How would you describe your music to those who never
+                  heard it before? </b><br>
+                  <i> My music is raw, and cool, its not always the same
+                  beat you hear from this days. It's a mixture of alternative,
+                  rap, reggae, and rock music.</i><br><br>
+
+                <b> Do you write and produce your own music?</b><br>
+                <i> Yeah, everything in my songs is done by me.</i><br><br>
+
+                  <b> What does it really feel like to be and indedendent artist?</b><br>
+                <i> Well it feels alone, you know, i have nobody to knod
+                  my head with while mixing the songs. And doing everything from
+                  scratch requires alot of time. But it pays off in the end.</i><br><br>
+
+                <b> What is your favorite part of the song writing
+                  process?</b><br>
+               <i> The beggining of creating the beat and tune, how
+                  they sound like in my head. And of course, recording those
+                  sounds is one of the best part.</i><br><br>
+                
+                <b> What can we expect from you in future?</b><br>
+                <i> You gonna hear more of my songs coming, and I'm
+                  never gonna stop, I may not be the one to sing them, but i'll
+                  make sure i'll be producing those songs. it may not be a hit,
+                  but atleast it is out there and not just a rotten imagination.</i>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><br><br>
+
+      <center>
+        <footer class="p-2 text-white">
+            <i class="fa-regular fa-envelope"></i>
+          <a style="font-weight:bold ;" href="mailto:joseluisjrgomez@gmail.com">Send Email</a>
+          </footer
+    </center>
+  </body>
+</html>
